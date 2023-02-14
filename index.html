@@ -11,7 +11,10 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
+    <!--Scroll-->
+     <a href="#home" class="scroll-top">
+        <i class='bx bx-up-arrow-alt' ></i>
+     </a>
     <header>
         <div class="nav container">
             <a href="#" class="logo">Abel</a>
@@ -32,7 +35,7 @@
         </div>
     </header>
 <!-- Home-->
-<section class="home container="home">
+<section class="home container" id="home">
 <div class="home-content">
     <div class="home-img">
         <img src="img/profile.jfif" alt="">
@@ -46,7 +49,7 @@
             </p>
             <!--rede social-->
             <div class="social">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
                 <a href="#"><i class='bx bxl-instagram'></i></a>
                 <a href="#"><i class='bx bxl-twitter'></i></a>
             </div>
@@ -178,7 +181,7 @@
 <!-- Review-->
 <section class="container reviews" id="reviews">
     <!-- Heading-->
-    <h2 class="heading">Reviwes</h2>
+    <h2 class="heading">Avaliações</h2>
     <!-- Review Content-->
     <div class="reviews-content swiper">
         <div class="swiper-wrapper">
@@ -240,15 +243,45 @@
     <h2 class="heading"> Contato</h2>
     <!-- Conttao form-->
     <form action="" class="contact-form" id="contact-form">
-        <input type="text" placeholder="Seu nome" class="name" required>
-        <input type="email" name="" id="" placeholder="Email address..." class="emai" required>
+        <input type="text" placeholder="Seu Nome" class="name" required>
+        <input type="email" name="" id="" placeholder="Endereço de email.." class="emai" required>
         <textarea name="" id="" cols="30" rows="10" placeholder="Coloque uma mensagem aqui..." class="message"></textarea>
-        <input type="submit" value="Send" class="send-btn">
+        <input type="submit" value="Enviar" class="send-btn">
     </form>
 </section>
+<!-- Footer -->
+<section class="footer container" id="footer">
+    <div class="social">
+        <a href="mailto:justin@exampleemail.com"><i class='bx bxs-envelope'></i></a>
+        <a href="#"><i class='bx bxl-facebook' ></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+    </div>
+
+    <!-- Footer Links -->
+     <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Disclaimer</a>
+     </div>
+<!-- Copyrigth -->
+<p>&#169; CarpoolWana</p>
+</section>
+
+
+  <!-- Email Js Link-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!--Sweet Alet Js link-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script type="text/javascript">
+    (function(){        
+      emailjs.init("vpvXprU0YOX-mhzQ0"); 
+    })();
+    </script>
+
+
 <!-- Link Swiper Js-->
 <script src="js/swiper-bundle.min.js"></script>
-
 <!-- Link para JS-->
 <script src="js/main.js"></script>
 
