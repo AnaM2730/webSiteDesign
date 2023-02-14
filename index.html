@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abel</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper CSS-->
+    <link rel="stylesheet" href="css/style.css">    
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -178,8 +180,74 @@
     <!-- Heading-->
     <h2 class="heading">Reviwes</h2>
     <!-- Review Content-->
-</section>
+    <div class="reviews-content swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <!--Review Box-->
+            <div class="review-box">
+                <i class='bx bxs-quote-right'></i>
+                <p class="review-rext">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus dolorem magnam, fugit sunt nam numquam repudiandae voluptatum cupiditate omnis quos, sapiente ipsum deleniti sed!
+                </p>
+                <div class="review-profile">
+                    <h2>Bella Moreira</h2>
+                    <span>Mora no Brasil</span>
+                    <img src="img/review-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
 
+        <div class="swiper-slide">
+            <!--Review Box-->
+            <div class="review-box">
+                <i class='bx bxs-quote-right'></i>
+                <p class="review-rext">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus dolorem magnam, fugit sunt nam numquam repudiandae voluptatum cupiditate omnis quos, sapiente ipsum deleniti sed!
+                </p>
+                <div class="review-profile">
+                    <h2>Marcos Marrine</h2>
+                    <span>Mora na França</span>
+                    <img src="img/review-2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <!--Review Box-->
+            <div class="review-box">
+                <i class='bx bxs-quote-right'></i>
+                <p class="review-rext">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione possimus dolorem magnam, fugit sunt nam numquam repudiandae voluptatum cupiditate omnis quos, sapiente ipsum deleniti sed!
+                </p>
+                <div class="review-profile">
+                    <h2>Alex</h2>
+                    <span>Mora na Espanha</span>
+                    <img src="img/review-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+
+         <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- Contato from-->
+<section class="contact container" id="contact">
+    <!--Heading-->
+    <h2 class="heading"> Contato</h2>
+    <!-- Conttao form-->
+    <form action="" class="contact-form" id="contact-form">
+        <input type="text" placeholder="Seu nome" class="name" required>
+        <input type="email" name="" id="" placeholder="Email address..." class="emai" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Coloque uma mensagem aqui..." class="message"></textarea>
+        <input type="submit" value="Send" class="send-btn">
+    </form>
+</section>
+<!-- Link Swiper Js-->
+<script src="js/swiper-bundle.min.js"></script>
 
 <!-- Link para JS-->
 <script src="js/main.js"></script>
