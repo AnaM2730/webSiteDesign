@@ -52,7 +52,7 @@ function sendmail(name, email, msg) {
 
 function emptyerror() {
     swal({
-        title: "Oh No....",
+        title: "Ohh Noo....",
         text: "Os campos não podem estar vazios!",
         icon: "error",
       });

@@ -61,8 +61,7 @@ header{
 }
 
 .nav{
-    display: flex;
-    align-items: center;
+    display: flex;;
     justify-content: space-between;
     padding: 20px 0;
 }
@@ -75,7 +74,8 @@ header{
 .navbar{
     display: flex;
     align-items: center;
-    column-gap: 1.5rem
+    column-gap: 1.5rem;
+    
 }
 .nav-link{
     font-size: 0.94rem;
@@ -83,7 +83,7 @@ header{
     border-radius: 0.2rem;
     color: var(--bg-color);
 }
-.nav-link :hover{
+.nav-link:hover{
 color: var(--main-color);
 background: var(--container-color);
 transition: 0.3s all linear;
